@@ -1,0 +1,16 @@
+= Twitter to https://github.com/zedeus/nitter[Nitter] telegram bot
+
+This bot gives https://github.com/zedeus/nitter[Nitter] links to any twitter links he founds.
+
+== Simple setup
+
+[ordered]
+. Install https://nodejs.org/[Node.js]
+. Run `npm install` and then `npm run build`
+. Go to https://t.me/BotFather[BotFather] and setup new bot
+. Copy `.env.example` to `.env`
+. Change settings in `.env`
+. Run `npm run start`
+. Add your newly created bot to groups
+. ...
+. Profit!!!
