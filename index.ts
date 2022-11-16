@@ -45,17 +45,21 @@ bot.on("text", async (ctx) => {
   }
 });
 
-bot.launch(
-  process.env.DISABLE_WEBHOOK === "true"
-    ? undefined
-    : {
-        webhook: {
-          domain: process.env.WEBHOOK_DOMAIN,
-          port: Number(process.env.WEBHOOK_PORT),
-          hookPath: process.env.WEBHOOK_PATH,
-        },
-      }
-);
+bot
+  .launch(
+    process.env.DISABLE_WEBHOOK === "true"
+      ? undefined
+      : {
+          webhook: {
+            domain: process.env.WEBHOOK_DOMAIN,
+            port: Number(process.env.WEBHOOK_PORT),
+            hookPath: process.env.WEBHOOK_PATH,
+          },
+        }
+  )
+  .then(() => {
+    console.log("Bot started");
+  });
 
 const rTwitterLink = /^(\w+:\/\/)?(?:mobile\.)?twitter\.com\b/i;
 
@@ -88,4 +92,3 @@ function prepareNewLink(source: URL, replacement: URL) {
 
   return url.toString();
 }
-
