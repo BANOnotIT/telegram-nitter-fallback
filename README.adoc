@@ -1,6 +1,6 @@
 = Twitter to https://github.com/zedeus/nitter[Nitter] telegram bot
 
-This bot gives https://github.com/zedeus/nitter[Nitter] links to any twitter links he founds.
+This bot gives https://github.com/zedeus/nitter[Nitter] links to any twitter links he finds.
 
 == Simple setup
 
