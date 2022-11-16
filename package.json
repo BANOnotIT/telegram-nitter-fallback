@@ -1,0 +1,22 @@
+{
+  "name": "tg-nitter-fallback",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "BANO.notIT <bano.notit@yandex.ru>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "typescript": "^4.9.3"
+  }
+}
