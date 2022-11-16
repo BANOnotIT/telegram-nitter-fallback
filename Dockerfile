@@ -8,4 +8,4 @@ RUN yarn
 COPY index.ts ./
 RUN yarn build
 
-CMD ['yarn', 'start']
+CMD node index.js

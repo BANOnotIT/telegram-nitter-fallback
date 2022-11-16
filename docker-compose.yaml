@@ -4,6 +4,5 @@ services:
   nitter-fallback:
     build:
       context: .
-    restart: always
     env_file:
       - .env
