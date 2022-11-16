@@ -1,6 +1,6 @@
-# Twitter to nitter telegram bot
+# Twitter to [Nitter](https://github.com/zedeus/nitter) telegram bot
 
-This bot gives nitter links to any twitter links he founds.
+This bot gives [Nitter](https://github.com/zedeus/nitter) links to any twitter links he founds.
 
 ## Simple setup
 
