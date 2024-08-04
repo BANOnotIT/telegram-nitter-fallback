@@ -61,7 +61,7 @@ bot
     console.log("Bot started");
   });
 
-const rTwitterLink = /^(\w+:\/\/)?(?:mobile\.)?twitter\.com\b/i;
+const rTwitterLink = /^(\w+:\/\/)?(?:mobile\.)?(twitter\.com|x\.com)\b/i;
 
 function extractTwitterLinks(text?: string, entities: MessageEntity[] = []) {
   return entities
